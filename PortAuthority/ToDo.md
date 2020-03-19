@@ -1,9 +1,9 @@
-- JMS Resources
+- JMS Resources (Per GlassFish install)
     - [ ] The MessageFactory
         - one for the entire project
     - [ ] The Queue
         - for NoticeManager to send messages to Port Authority 
-    - [ ] Topic resources [2x]
+    - [ ] Topic resources [2x AgentOne & AgentTwo]
         - [ ] for PortAuthority to publish messages
         - [ ] publish to the agents
 - Backing Beans (client)
