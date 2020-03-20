@@ -31,5 +31,6 @@
 		<level name="Maven: javax.interceptor:javax.interceptor-api:1.2" value="project"/>
 		<level name="Maven: javax.inject:javax.inject:1" value="project"/>
 		<level name="Maven: javax.faces:jsf-api:2.0" value="project"/>
+		<level name="PrimeFaces-6.1" value="project"/>
 	</levels>
 </component>

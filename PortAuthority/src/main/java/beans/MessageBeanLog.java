@@ -15,7 +15,7 @@ public class MessageBeanLog implements MessageListener {
             String text = null;
             try {
                 text = tm.getText();
-                System.out.println("Message recieved: " + text);
+                System.out.println("Message received: " + text);
             } catch (JMSException e) {
                 e.printStackTrace();
             }
