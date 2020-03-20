@@ -1,54 +1,58 @@
 package beans;
 
-import javax.persistence.Column;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Id;
+import javax.persistence.*;
 import java.io.Serializable;
 
 // For JPA persistency
-// @Entity
-// @Table(name="NoticeOfArrival")
+@Entity
+@Table(name = "NoticeOfArrival")
 public class NoticeOfArrival implements Serializable {
 
-	private static final long serialVersionUID = 1L;
+    private static final long serialVersionUID = 1L;
 
-	// Uncomment if you want to use this bean as a transport object for JPA (from PortAuthority component)
-	// The extra annotations allow for using an auto-increment key in MySQL (see description of NoticeOfArrival table)
-	@Id
-	@GeneratedValue(strategy = GenerationType.IDENTITY)
-	@Column(name = "id", updatable = false, nullable = false)
-	private Long id;
+    // Uncomment if you want to use this bean as a transport object for JPA (from PortAuthority component)
+    // The extra annotations allow for using an auto-increment key in MySQL (see description of NoticeOfArrival table)
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @Column(name = "id", updatable = false, nullable = false)
+    private Long id;
 
-	private String name;
+    private String name;
+    private int mmsi;
+    private int client;
 
-	private int mmsi;
+    public NoticeOfArrival() {
+        this.mmsi = mmsi;
+        this.client = client;
+        this.name = name;
+    }
 
-	private int client;
+    public int getMmsi() {
+        return mmsi;
+    }
 
-	public NoticeOfArrival() {
-		this.mmsi = mmsi;
-		this.client = client;
-		this.name = name;
-	}
+    public void setMmsi(int mmsi) {
+        this.mmsi = mmsi;
+    }
 
-	public void setName(String name) {
-		this.name = name;
-	}
+    public int getClient() {
+        return client;
+    }
 
-	public String getName() {
-		return name;
-	}
+    public void setClient(int client) {
+        this.client = client;
+    }
 
-	public Long getId() {
-		return id;
-	}
+    public String getName() {
+        return name;
+    }
 
-	public int getMmsi() {
-		return mmsi;
-	}
+    public void setName(String name) {
+        this.name = name;
+    }
 
-	public int getClient() {
-		return client;
-	}
+    public Long getId() {
+        return id;
+    }
+
 }

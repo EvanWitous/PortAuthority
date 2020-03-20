@@ -31,7 +31,6 @@ public class NoticeManager implements Serializable {
     }
 
     public void sendMessage(String msg) {
-        String json = toJSON(notice);
         JMSContext context = logFactory.createContext();
         JMSProducer mp = context.createProducer();
         Message tm = context.createTextMessage(msg);
@@ -44,7 +43,11 @@ public class NoticeManager implements Serializable {
 
 
     public void mesg() {
-        System.out.println("NoticeManager: mesg()");
+        System.out.println("Sending Message");
+        String json = toJSON(this.notice);
+        System.out.println(json);
+        sendMessage(json);
+        System.out.println("Sent Message!");
     }
 
 }
