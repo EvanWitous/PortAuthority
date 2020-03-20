@@ -10,8 +10,11 @@
 <f:view>
 	<h:form>
 	<h:panelGroup id="input" style="width:100%">
+		<h:outputLabel value="Name">Name</h:outputLabel>
 			<p:inputText value="#{noticeMgr.notice.name}" style="width:15%;margin:1%"/>
+			<h:outputText value="MMSI"/>
 			<p:inputText value="#{noticeMgr.notice.mmsi}" style="width:15%;margin:1%"/>
+			<h:outputText value="Operating Client"/>
 			<p:inputText value="#{noticeMgr.notice.client}" style="width:15%;margin:1%"/>
 				<h:panelGroup style="width:8%;margin:1%">
 				<p:commandButton value="SEND" actionListener="#{noticeMgr.mesg}" style="background-color:transparent;"/>
