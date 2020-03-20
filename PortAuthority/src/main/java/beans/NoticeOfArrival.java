@@ -22,9 +22,6 @@ public class NoticeOfArrival implements Serializable {
     private int client;
 
     public NoticeOfArrival() {
-        this.mmsi = mmsi;
-        this.client = client;
-        this.name = name;
     }
 
     public int getMmsi() {
