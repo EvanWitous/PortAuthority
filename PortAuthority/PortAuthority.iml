@@ -20,6 +20,7 @@
       <configuration>
         <setting name="validation-enabled" value="true" />
         <datasource-mapping>
+          <factory-entry name="Entities" value="0ecb0a82-8c22-4a74-bc59-5c66c677e304" />
           <factory-entry name="PortAuthority" value="0ecb0a82-8c22-4a74-bc59-5c66c677e304" />
         </datasource-mapping>
         <naming-strategy-map />
