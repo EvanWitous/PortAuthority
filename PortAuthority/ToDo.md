@@ -1,16 +1,16 @@
 - JMS Resources (Per GlassFish install)
-    - [ ] The MessageFactory
+    - [X] The MessageFactory
         - one for the entire project
-    - [ ] The Queue
+    - [X] The Queue
         - for NoticeManager to send messages to Port Authority 
-    - [ ] Topic resources [2x AgentOne & AgentTwo]
+    - [X] Topic resources [2x AgentOne & AgentTwo]
         - [ ] for PortAuthority to publish messages
         - [ ] publish to the agents
 - Backing Beans (client)
-    - [ ] add necessary fields and methods
-    - [ ] NoticeManager class
-        - [ ] serialize current NoticeOfArrival object into JASON string
-        - [ ] use JSON string as the content of TextMessage to the Queue from above
+    - [X] add necessary fields and methods
+    - [X] NoticeManager class
+        - [X] serialize current NoticeOfArrival object into JASON string
+        - [X] use JSON string as the content of TextMessage to the Queue from above
     - [ ] Add missing bindings in NoticeOfArrival.xhtml
         - [ ] each input field should refer to it's counterpart in the backing object (Notice of Arrival)
         - [ ] commandButton element should bind to NoticeManager method that send message to PortAuthority

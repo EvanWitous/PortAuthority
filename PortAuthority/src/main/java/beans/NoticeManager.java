@@ -41,7 +41,6 @@ public class NoticeManager implements Serializable {
         return notice;
     }
 
-
     public void mesg() {
         System.out.println("Sending Message");
         String json = toJSON(this.notice);
