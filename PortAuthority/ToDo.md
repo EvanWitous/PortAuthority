@@ -11,9 +11,9 @@
     - [X] NoticeManager class
         - [X] serialize current NoticeOfArrival object into JASON string
         - [X] use JSON string as the content of TextMessage to the Queue from above
-    - [ ] Add missing bindings in NoticeOfArrival.xhtml
-        - [ ] each input field should refer to it's counterpart in the backing object (Notice of Arrival)
-        - [ ] commandButton element should bind to NoticeManager method that send message to PortAuthority
+    - [X] Add missing bindings in NoticeOfArrival.xhtml
+        - [X] each input field should refer to it's counterpart in the backing object (Notice of Arrival)
+        - [X] commandButton element should bind to NoticeManager method that send message to PortAuthority
 - Business beans (receiving end)
     - [ ] Implement PortAuthority Message Driven Bean [MDB] and methods
         - [ ] read notice of arrival from the queue (in JSON) (see https://javaee.github.io/tutorial/jsonp.html)
