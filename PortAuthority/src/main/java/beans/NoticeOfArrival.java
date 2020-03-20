@@ -22,12 +22,12 @@ public class NoticeOfArrival implements Serializable {
 
 	private String name;
 
-	private int nmsi;
+	private int mmsi;
 
 	private int client;
 
-	public NoticeOfArrival(int nmsi, int client, String name) {
-		this.nmsi = nmsi;
+	public NoticeOfArrival() {
+		this.mmsi = mmsi;
 		this.client = client;
 		this.name = name;
 	}
@@ -44,8 +44,8 @@ public class NoticeOfArrival implements Serializable {
 		return id;
 	}
 
-	public int getNmsi() {
-		return nmsi;
+	public int getMmsi() {
+		return mmsi;
 	}
 
 	public int getClient() {
