@@ -1,9 +1,13 @@
 package beans;
 
+import javax.json.Json;
+import javax.json.JsonObject;
+import javax.json.JsonWriter;
 import javax.persistence.*;
 import java.io.Serializable;
+import java.io.StringWriter;
 
-// For JPA persistency
+// For JPA persistence
 @Entity
 @Table(name = "NoticeOfArrival")
 public class NoticeOfArrival implements Serializable {
@@ -48,8 +52,16 @@ public class NoticeOfArrival implements Serializable {
         this.name = name;
     }
 
-    public Long getId() {
-        return id;
+    public String toJsonString() {
+        StringWriter stringWriter = new StringWriter();
+        JsonWriter jsonWriter = Json.createWriter(stringWriter);
+        jsonWriter.writeObject(this.toJsonObject());
+        jsonWriter.close();
+        return stringWriter.toString();
+    }
+
+    public JsonObject toJsonObject() {
+        return Json.createObjectBuilder().add("name", this.name).add("mmsi", this.mmsi).add("client", this.client).build();
     }
 
 }

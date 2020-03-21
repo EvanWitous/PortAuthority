@@ -24,7 +24,7 @@
           <factory-entry name="PortAuthority" value="0ecb0a82-8c22-4a74-bc59-5c66c677e304" />
         </datasource-mapping>
         <naming-strategy-map />
-        <deploymentDescriptor name="persistence.xml" url="file://$MODULE_DIR$/build/classes/META-INF/persistence.xml" />
+        <deploymentDescriptor name="persistence.xml" url="file://$MODULE_DIR$/src/main/resources/META-INF/persistence.xml" />
       </configuration>
     </facet>
     <facet type="javaeeApplication" name="javaEEApplication">
