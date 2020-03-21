@@ -34,20 +34,6 @@
 			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Java EE 6-Java EE 6"/>
-	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/JAX-RS-2.1.1 (2)"/>
-	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/WebSocket-1.1 (2)"/>
-	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/javax.resource-api-1.7.1 (2)"/>
-	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/JavaeeSecurity-1.0 (2)"/>
-	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/javax.json.bind-api-1.0 (2)"/>
-	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/javax.json.processing-1.1.4 (2)"/>
-	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Java EE 6-Java EE 6"/>
-	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/ConcurrencyUtilities-1.1 (2)"/>
-	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Java EE 6-Java EE 6"/>
-	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/javax.batch-api-1.0-b17 (2)"/>
-	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Validation API-2.0.1.Final (2)"/>
-	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/JBoss Weld-2.0.3 (2)"/>
-	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Java EE 6-Java EE 6"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Maven: javax:javaee-api:8.0"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Maven: com.sun.mail:javax.mail:1.6.0"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Maven: javax.activation:activation:1.1"/>
@@ -63,5 +49,8 @@
 	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Maven: javax.interceptor:javax.interceptor-api:1.2"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Maven: javax.inject:javax.inject:1"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Maven: javax.faces:jsf-api:2.0"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Maven: javax:javaee-api:8.0"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/PrimeFaces-6.1"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/PrimeFaces-6.1"/>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>

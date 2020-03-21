@@ -2,6 +2,7 @@
 <component LANGUAGE_LEVEL="JDK_1_8" jdk="1.8" jdk_type="JavaSDK">
 	<output-test url="file://$MODULE_DIR$/target/test-classes"/>
 	<contentEntry url="file://$MODULE_DIR$">
+		<testFolder url="file://$MODULE_DIR$/src/test/java"/>
 		<excludeFolder url="file://$MODULE_DIR$/target"/>
 	</contentEntry>
 	<lib name="Maven: javax:javaee-api:8.0" scope="PROVIDED"/>
@@ -15,17 +16,6 @@
 	<lib name="Maven: org.junit.platform:junit-platform-commons:1.5.2" scope="TEST"/>
 	<lib name="Maven: javax.faces:jsf-api:2.0" scope="PROVIDED"/>
 	<levels>
-		<level name="Java EE 6-Java EE 6" value="project"/>
-		<level name="JAX-RS-2.1.1 (2)" value="project"/>
-		<level name="WebSocket-1.1 (2)" value="project"/>
-		<level name="javax.resource-api-1.7.1 (2)" value="project"/>
-		<level name="JavaeeSecurity-1.0 (2)" value="project"/>
-		<level name="javax.json.bind-api-1.0 (2)" value="project"/>
-		<level name="javax.json.processing-1.1.4 (2)" value="project"/>
-		<level name="ConcurrencyUtilities-1.1 (2)" value="project"/>
-		<level name="javax.batch-api-1.0-b17 (2)" value="project"/>
-		<level name="Validation API-2.0.1.Final (2)" value="project"/>
-		<level name="JBoss Weld-2.0.3 (2)" value="project"/>
 		<level name="Maven: javax:javaee-api:8.0" value="project"/>
 		<level name="Maven: com.sun.mail:javax.mail:1.6.0" value="project"/>
 		<level name="Maven: javax.activation:activation:1.1" value="project"/>
@@ -41,5 +31,6 @@
 		<level name="Maven: javax.interceptor:javax.interceptor-api:1.2" value="project"/>
 		<level name="Maven: javax.inject:javax.inject:1" value="project"/>
 		<level name="Maven: javax.faces:jsf-api:2.0" value="project"/>
+		<level name="PrimeFaces-6.1" value="project"/>
 	</levels>
 </component>
