@@ -4,8 +4,5 @@ import javax.ejb.Local;
 
 @Local
 public interface BoatManagementFacade {
-    static void add(NoticeOfArrival noa) {
-
-    }
-
+    public void add(NoticeOfArrival noa);
 }

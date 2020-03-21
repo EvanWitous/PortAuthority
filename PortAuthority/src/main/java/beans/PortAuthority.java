@@ -26,7 +26,8 @@ public class PortAuthority implements MessageListener {
                 NOA.setMmsi(json.getInt("mmsi"));
                 NOA.setClient(json.getInt("client"));
                 System.out.println("PA: My name is " + NOA.getName());
-                BoatManagementFacadeBean.add(NOA);
+                BoatManagementFacadeBean BFMDB = new BoatManagementFacadeBean();
+                BFMDB.add(NOA);
             } catch (JMSException e) {
                 e.printStackTrace();
             }
